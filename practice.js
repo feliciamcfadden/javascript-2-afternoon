@@ -17,10 +17,17 @@
 //Code here
 
 let me = {
+<<<<<<< HEAD
   name: 'Felicia',
   age: 23
 };
 
+=======
+  name: 'felicia',
+  age: '23'
+
+}
+>>>>>>> 33baaf600a024f98ba350b106bf11faf7ff1ae6e
 
 
 ////////// PROBLEM 2 //////////
@@ -33,6 +40,7 @@ let me = {
 //Code here
 
 let favoriteThings = {
+<<<<<<< HEAD
   band: 'AJR',
   food: 'Takis',
   person: 'Taylor Swift',
@@ -40,6 +48,15 @@ let favoriteThings = {
   movie: 'Avengers End game',
   holiday: 'Halloween'
 };
+=======
+  band: 'ajr',
+  food: 'takis',
+  person: 'trevin',
+  book: 'lord of the rings',
+  movie: 'spirted away',
+  holiday: 'halloween'
+}
+>>>>>>> 33baaf600a024f98ba350b106bf11faf7ff1ae6e
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -51,6 +68,9 @@ favoriteThings.car ='Sabaru'
 favoriteThings.brand = 'none'
 
 
+favoriteThings.car = 'truck'
+favoriteThings.brand = 'ford' 
+
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
@@ -60,6 +80,8 @@ favoriteThings.brand = 'none'
 favoriteThings.food ='Chicken Nuggets'
 favoriteThings.book= 'Harry Potter'
 
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 ////////// PROBLEM 3 //////////
 
 /*
@@ -78,6 +100,16 @@ let backPack = {
 let item = 'firstPocket'
 backPack['firstPocket'] = 'chapstick'
 
+let backPack = {
+
+}
+ let item = 'firstPocket'
+ backPack['firstPocket'] = 'chapstick'
+ 
+ 
+ 
+
+
 /*
   After you do the above, alert your entire backPack object.
 
@@ -85,7 +117,10 @@ backPack['firstPocket'] = 'chapstick'
 
 //Code here
 alert(backPack)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 33baaf600a024f98ba350b106bf11faf7ff1ae6e
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -117,6 +152,10 @@ var user2 = {
 
 //Code Here
 user2.name = 'Bryan G. Smith'
+<<<<<<< HEAD
+=======
+
+>>>>>>> 33baaf600a024f98ba350b106bf11faf7ff1ae6e
 user2.email = 'bryan.smith@devmounta.in'
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
